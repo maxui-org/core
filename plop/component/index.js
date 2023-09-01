@@ -1,6 +1,6 @@
 module.exports = plop => {
   plop.setGenerator("Component", {
-    description: "New monday component",
+    description: "New maxui component",
     prompts: [
       {
         type: "input",

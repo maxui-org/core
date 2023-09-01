@@ -12,7 +12,7 @@ window.STORYBOOK_REACT_GA_OPTIONS = {};
 const theme = create({
   base: "light",
   brandImage: logo,
-  brandUrl: "https://style.monday.com",
+  brandUrl: "https://style.maxui.org",
   barSelectedColor: "#5034ff",
   brandTitle: "Vibe Design",
   background: {

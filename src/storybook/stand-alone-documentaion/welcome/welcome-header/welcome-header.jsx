@@ -6,7 +6,7 @@ export const WelcomeHeader = () => (
   <ComponentNameDecorator className={BASE_CLASS}>
     <span className={`${BASE_CLASS}_text`}>
       Vibe Design System
-      <br /> by monday.com
+      <br /> by maxui.org
     </span>
   </ComponentNameDecorator>
 );

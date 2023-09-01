@@ -104,7 +104,7 @@ A toast notification is a message object that presents timely information, inclu
   <Story name="Toast with link">
     {() => {
       const actions = useMemo(
-        () => [{ type: Toast.actionTypes.LINK, text: "Link to action", href: "https://monday.com" }],
+        () => [{ type: Toast.actionTypes.LINK, text: "Link to action", href: "https://maxui.org" }],
         []
       );
       return (
@@ -183,7 +183,7 @@ Use when something was deleted, a problem has occured, etc.
               open
               hideIcon
               className="monday-storybook-toast_wrapper monday-storybook-toast_negative_rule"
-              actions={[{ type: Toast.actionTypes.LINK, text: "Try again", href: "https://monday.com" }]}
+              actions={[{ type: Toast.actionTypes.LINK, text: "Try again", href: "https://maxui.org" }]}
             >
               Couldn’t load board items
             </Toast>

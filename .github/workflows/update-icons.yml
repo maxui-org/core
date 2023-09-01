@@ -55,8 +55,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update icons - monday-ui-style ${{ env.LATEST_VERSION }}"
-          committer: Monday Style <mondaystyle@monday.com>
-          author: Monday Style <mondaystyle@monday.com>
+          committer: Monday Style <mondaystyle@maxui.org>
+          author: Monday Style <mondaystyle@maxui.org>
           branch: update-version/style-version-${{env.LATEST_VERSION}}
           title: "Update icons - monday-ui-style ${{ env.LATEST_VERSION }}"
           body: |

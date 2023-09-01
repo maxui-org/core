@@ -55,7 +55,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { within, userEvent } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';
-impot { interactionSuite } from "monday-ui-react-core/interaction-tests"
+impot { interactionSuite } from "core/interaction-tests"
 import { LoginForm } from './LoginForm';
 
 export default {

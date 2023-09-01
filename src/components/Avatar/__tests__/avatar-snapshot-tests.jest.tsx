@@ -7,8 +7,8 @@ jest.mock("../../Icon/Icon", () => ({ icon }: { icon: string | null }) => <div d
 jest.mock("../../Icon/CustomSvgIcon/CustomSvgIcon", () => () => <div data-testid="custom-icon-mock" />);
 
 const IMG_SRC =
-  "https://files.monday.com/use1/photos/16447897/small/16447897-Hadas_Farhi_photo_2020_10_04_10_14_06.png?1601806446";
-const BADGE_SRC = "https://cdn7.monday.com/images/working-status/wfh.svg";
+  "https://files.maxui.org/use1/photos/16447897/small/16447897-Hadas_Farhi_photo_2020_10_04_10_14_06.png?1601806446";
+const BADGE_SRC = "https://cdn7.maxui.org/images/working-status/wfh.svg";
 
 describe("Avatar renders correctly", () => {
   it("renders correctly with empty props", () => {

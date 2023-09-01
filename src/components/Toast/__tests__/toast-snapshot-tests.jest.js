@@ -45,7 +45,7 @@ describe("Toast renders correctly", () => {
       .create(
         <Toast
           open
-          actions={[{ type: Toast.actionTypes.LINK, text: "Lorem ipsum", href: "https://monday.com", key: 1 }]}
+          actions={[{ type: Toast.actionTypes.LINK, text: "Lorem ipsum", href: "https://maxui.org", key: 1 }]}
         >
           Something Happened
         </Toast>
@@ -61,7 +61,7 @@ describe("Toast renders correctly", () => {
           open
           actions={[
             { type: Toast.actionTypes.BUTTON, content: "Undo 5", key: 1 },
-            { type: Toast.actionTypes.LINK, text: "Lorem ipsum", href: "https://monday.com", key: 2 }
+            { type: Toast.actionTypes.LINK, text: "Lorem ipsum", href: "https://maxui.org", key: 2 }
           ]}
         >
           Something Happened

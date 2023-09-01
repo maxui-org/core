@@ -31,7 +31,7 @@ export const alertBannerTemplate = args => {
   return (
     <AlertBanner {...args}>
       <AlertBannerText text={args.bannerText} />
-      <AlertBannerLink text={args.linkText} href="https://monday.com" />
+      <AlertBannerLink text={args.linkText} href="https://maxui.org" />
     </AlertBanner>
   );
 };
@@ -98,19 +98,19 @@ There are four types of alert banners: primary, negative, positive, and inverted
     <div className="monday-storybook-alert-banner_column-wrapper monday-storybook-alert-banner_big-container">
       <AlertBanner>
         <AlertBannerText text="Alert banner message" />
-        <AlertBannerLink text="this is a CTA" href="https://monday.com" />
+        <AlertBannerLink text="this is a CTA" href="https://maxui.org" />
       </AlertBanner>
       <AlertBanner backgroundColor={AlertBanner.backgroundColors.NEGATIVE}>
         <AlertBannerText text="Alert banner message" />
-        <AlertBannerLink text="this is a CTA" href="https://monday.com" />
+        <AlertBannerLink text="this is a CTA" href="https://maxui.org" />
       </AlertBanner>
       <AlertBanner backgroundColor={AlertBanner.backgroundColors.POSITIVE}>
         <AlertBannerText text="Alert banner message" />
-        <AlertBannerLink text="this is a CTA" href="https://monday.com" />
+        <AlertBannerLink text="this is a CTA" href="https://maxui.org" />
       </AlertBanner>
       <AlertBanner backgroundColor={AlertBanner.backgroundColors.DARK}>
         <AlertBannerText text="Alert banner message" />
-        <AlertBannerLink text="this is a CTA" href="https://monday.com" />
+        <AlertBannerLink text="this is a CTA" href="https://maxui.org" />
       </AlertBanner>
     </div>
   </Story>
@@ -133,7 +133,7 @@ There are four types of alert banners: primary, negative, positive, and inverted
   <Story name="Alert Banner with link">
     <AlertBanner className="monday-storybook-alert-banner_big-container">
       <AlertBannerText text="Alert banner message" />
-      <AlertBannerLink text="this is a CTA" href="https://monday.com" />
+      <AlertBannerLink text="this is a CTA" href="https://maxui.org" />
     </AlertBanner>
   </Story>
 </Canvas>
@@ -147,7 +147,7 @@ There are four types of alert banners: primary, negative, positive, and inverted
         component: (
           <AlertBanner className="monday-storybook-alert-banner_medium-container">
             <AlertBannerText text="Join us at Elevate!" />
-            <AlertBannerLink text="RSVP now" href="https://monday.com" />
+            <AlertBannerLink text="RSVP now" href="https://maxui.org" />
           </AlertBanner>
         ),
         description: "Use banners for system messages, background processes, and general updates."
@@ -176,7 +176,7 @@ There are four types of alert banners: primary, negative, positive, and inverted
             backgroundColor={AlertBanner.backgroundColors.NEGATIVE}
           >
             <AlertBannerText text="No connection" />
-            <AlertBannerLink text="Learn more" href="https://monday.com" />
+            <AlertBannerLink text="Learn more" href="https://maxui.org" />
             <AlertBannerButton>Try again</AlertBannerButton>
           </AlertBanner>
         ),
@@ -190,8 +190,8 @@ There are four types of alert banners: primary, negative, positive, and inverted
               className="monday-storybook-alert-banner_medium-container"
             >
               <AlertBannerText text="No connection" />
-              <AlertBannerLink text="Learn more" href="https://monday.com" />
-              <AlertBannerLink text="Try again" href="https://monday.com" />
+              <AlertBannerLink text="Learn more" href="https://maxui.org" />
+              <AlertBannerLink text="Try again" href="https://maxui.org" />
             </AlertBanner>
             <AlertBanner
               backgroundColor={AlertBanner.backgroundColors.NEGATIVE}
@@ -214,7 +214,7 @@ There are four types of alert banners: primary, negative, positive, and inverted
             className="monday-storybook-alert-banner_medium-container"
           >
             <AlertBannerText text="Join us at Elevate!" />
-            <AlertBannerLink text="RSVP now" href="https://monday.com" />
+            <AlertBannerLink text="RSVP now" href="https://maxui.org" />
           </AlertBanner>
         ),
         description: "Use only the 4 color types: primary, negative, positive, and inverted."
@@ -223,7 +223,7 @@ There are four types of alert banners: primary, negative, positive, and inverted
         component: (
           <AlertBanner className="monday-storybook-alert-banner_medium-container monday-storybook-alert-banner_pink">
             <AlertBannerText text="Join us at Elevate!" />
-            <AlertBannerLink text="RSVP now" href="https://monday.com" />
+            <AlertBannerLink text="RSVP now" href="https://maxui.org" />
           </AlertBanner>
         ),
         description: "Don’t choose other colors for alert banners. Keep it consistent."
@@ -245,7 +245,7 @@ Use when you’d like to notify about an event or cross-company announcment.
       className="monday-storybook-alert-banner_big-container"
     >
       <AlertBannerText text="Join us at Elevate 2022" />
-      <AlertBannerLink text="RSVP now" href="https://monday.com" />
+      <AlertBannerLink text="RSVP now" href="https://maxui.org" />
     </AlertBanner>
   </Story>
 </Canvas>
@@ -258,7 +258,7 @@ Use to show a trial user the number of remaining free days to use the platform.
   <Story name="Alert banner as an opportunity to upgrade">
     <AlertBanner className="monday-storybook-alert-banner_big-container">
       <AlertBannerText text="7 days left on your monday CRM trial" />
-      <AlertBannerLink text="Upgrade now" href="https://monday.com" />
+      <AlertBannerLink text="Upgrade now" href="https://maxui.org" />
     </AlertBanner>
   </Story>
 </Canvas>
@@ -271,7 +271,7 @@ In case that there’s not enough space for the conent, use an ellipses (...).
   <Story name="Overflow text">
     <AlertBanner className="monday-storybook-alert-banner_small-container">
       <AlertBannerText text="This is a really long alert..." />
-      <AlertBannerLink text="Call to action" href="https://monday.com" />
+      <AlertBannerLink text="Call to action" href="https://maxui.org" />
     </AlertBanner>
   </Story>
 </Canvas>

@@ -22,27 +22,27 @@ const STATIC_FOUNDING_DESIGNERS = [
 const STATIC_CONTRIBUTERS = [
   {
     name: "Devorah Friedman",
-    href: "mailto:devorahfr@monday.com"
+    href: "mailto:devorahfr@maxui.org"
   },
   {
     name: "Dmitry Kogan",
-    href: "mailto:dimako@monday.com"
+    href: "mailto:dimako@maxui.org"
   },
   {
     name: "Meytal Badichi",
-    href: "mailto:mailto:meytal@monday.com"
+    href: "mailto:mailto:meytal@maxui.org"
   },
   {
     name: "Shay Cohen",
-    href: "mailto:shay@monday.com"
+    href: "mailto:shay@maxui.org"
   },
   {
     name: "Eylon Goren",
-    href: "mailto:eylon@monday.com"
+    href: "mailto:eylon@maxui.org"
   },
   {
     name: "Noa Fenko",
-    href: "mailto:noafe@monday.com"
+    href: "mailto:noafe@maxui.org"
   },
   {
     name: "LeanyLabs",
@@ -53,7 +53,7 @@ const STATIC_CONTRIBUTERS = [
 export const OtherContributorsList = () => {
   const [contributorsJson, setContributorsJson] = useState();
   useEffect(() => {
-    fetch("https://api.github.com/repos/mondaycom/monday-ui-react-core/contributors")
+    fetch("https://api.github.com/repos/maxui-org/core/contributors")
       .then(response => response.json())
       .then(data => setContributorsJson(data));
   }, []);

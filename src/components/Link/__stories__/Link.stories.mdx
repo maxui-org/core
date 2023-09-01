@@ -36,7 +36,7 @@ export const linkTemplate = createComponentTemplate(Link);
 Link is an actionable text component with connection to another web pages.
 
 <Canvas>
-  <Story name="Overview" args={{ text: "Read more", href: "https://www.monday.com" }}>
+  <Story name="Overview" args={{ text: "Read more", href: "https://www.maxui.org" }}>
     {linkTemplate.bind({})}
   </Story>
 </Canvas>
@@ -69,7 +69,7 @@ Link is an actionable text component with connection to another web pages.
 
 <Canvas>
   <Story name="States">
-    <Link text="Default" href="https://www.monday.com" />
+    <Link text="Default" href="https://www.maxui.org" />
   </Story>
 </Canvas>
 
@@ -77,8 +77,8 @@ Link is an actionable text component with connection to another web pages.
 
 <Canvas>
   <Story name="Right to left">
-    <Link text="اقرأ أكثر" href="https://www.monday.com" icon={IconLink} />
-    <Link text="קרא עוד" href="https://www.monday.com" iconPosition={Link.iconPositions.END} icon={Info} />
+    <Link text="اقرأ أكثر" href="https://www.maxui.org" icon={IconLink} />
+    <Link text="קרא עוד" href="https://www.maxui.org" iconPosition={Link.iconPositions.END} icon={Info} />
   </Story>
 </Canvas>
 
@@ -86,8 +86,8 @@ Link is an actionable text component with connection to another web pages.
 
 <Canvas>
   <Story name="With icons">
-    <Link text="Read more" href="https://www.monday.com" icon={ExternalPage} />
-    <Link text="Read more" href="https://www.monday.com" iconPosition={Link.iconPositions.END} icon={ExternalPage} />
+    <Link text="Read more" href="https://www.maxui.org" icon={ExternalPage} />
+    <Link text="Read more" href="https://www.maxui.org" iconPosition={Link.iconPositions.END} icon={ExternalPage} />
   </Story>
 </Canvas>
 
@@ -97,11 +97,11 @@ Link is an actionable text component with connection to another web pages.
   rules={[
     {
       positive: {
-        component: <Link text="Read more" href="https://www.monday.com" />,
+        component: <Link text="Read more" href="https://www.maxui.org" />,
         description: "Keep the copy short and to the point."
       },
       negative: {
-        component: <Link text="Go to this url and read all about it" href="https://www.monday.com" />,
+        component: <Link text="Go to this url and read all about it" href="https://www.maxui.org" />,
         description: "Don’t write long messages that are clickable."
       }
     },
@@ -111,7 +111,7 @@ Link is an actionable text component with connection to another web pages.
           <Link
             text="Read more"
             iconPosition={Link.iconPositions.START}
-            href="https://www.monday.com"
+            href="https://www.maxui.org"
             icon={ExternalPage}
           />
         ),
@@ -127,15 +127,15 @@ Link is an actionable text component with connection to another web pages.
     },
     {
       positive: {
-        component: <Link text="Read more" href="https://www.monday.com" />,
+        component: <Link text="Read more" href="https://www.maxui.org" />,
         description: "Use only one link in context in text"
       },
       negative: {
         component: [
-          <Link text="Read this" href="https://www.monday.com" />,
+          <Link text="Read this" href="https://www.maxui.org" />,
           <span class="monday-storybook-link_text">or</span>,
-          <Link text="this" href="https://www.monday.com" />,
-          <Link text="Nice article" href="https://www.monday.com" />
+          <Link text="this" href="https://www.maxui.org" />,
+          <Link text="Nice article" href="https://www.maxui.org" />
         ],
         description: "Don’t use multiple links near each other"
       }
@@ -153,7 +153,7 @@ Use this menu to allow a user to either select one or more items from the list.
   <Story name="Reference link">
     <div>
       Lorem Ipsum has been the industry's{" "}
-      <Link inlineText inheritFontSize text="standard" href="https://www.monday.com" /> dummy text ever since the 1500s,
+      <Link inlineText inheritFontSize text="standard" href="https://www.maxui.org" /> dummy text ever since the 1500s,
       when an unknown printer took a galley of type and scrambled it to make a type specimen book.{" "}
     </div>
   </Story>
@@ -168,7 +168,7 @@ Use read more to shorten long paragraphs of text
     <div>
       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
       galley of type and scrambled it to make a type specimen book.
-      <Link text=" Read more..." href="https://www.monday.com" inheritFontSize inlineText />
+      <Link text=" Read more..." href="https://www.maxui.org" inheritFontSize inlineText />
     </div>
   </Story>
 </Canvas>

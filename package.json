@@ -1,6 +1,6 @@
 {
   "name": "@maxui-org/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official maxui.org UI resources for application development in React.js",
   "main": "./dist/main.js",
   "types": "./dist/types.d.ts",
@@ -70,7 +70,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mondaycom/monday-ui-react-core.git"
+    "url": "git+https://github.com/maxui-org/core.git"
   },
   "author": "",
   "license": "MIT",
@@ -81,9 +81,9 @@
     "THEME_README.md"
   ],
   "bugs": {
-    "url": "https://github.com/mondaycom/monday-ui-react-core/issues"
+    "url": "https://github.com/maxui-org/core/issues"
   },
-  "homepage": "https://github.com/mondaycom/monday-ui-react-core#readme",
+  "homepage": "https://github.com/maxui-org/core#readme",
   "dependencies": {
     "@popperjs/core": "2.11.6",
     "a11y-dialog": "^7.5.2",

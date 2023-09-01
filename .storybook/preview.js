@@ -32,7 +32,7 @@ addParameters({
     container: ({ children, context }) => (
       <DocsContainer context={context}>
         {children}
-        {<DocFooter feedbackFormLink="https://forms.monday.com/forms/213ebddcb0d423ae5b6178fb6e8f7b3d?r=use1" />}
+        {<DocFooter feedbackFormLink="https://forms.maxui.org/forms/213ebddcb0d423ae5b6178fb6e8f7b3d?r=use1" />}
       </DocsContainer>
     ),
     page: DocsPage,

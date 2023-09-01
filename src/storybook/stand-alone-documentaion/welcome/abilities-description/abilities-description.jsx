@@ -7,9 +7,9 @@ export const AbilitiesDescription = () => (
     <AbilityDescription
       title="Getting started"
       imageSrc={gettingStarted}
-      linkHref="https://github.com/mondaycom/monday-ui-react-core#readme"
+      linkHref="https://github.com/maxui-org/core#readme"
     >
-      Instructions and welcome to the monday.com OS design system
+      Instructions and welcome to the maxui.org OS design system
     </AbilityDescription>
     <AbilityDescription title="Foundations" imageSrc={foundations} linkHref="/?path=/docs/foundations-colors--page">
       All information about colors, typography, spacing, and icons

@@ -28,7 +28,7 @@ import { Button } from "@maxui/core";
 In order to load all the relevant CSS tokens, you should import the `tokens` file at the root of your application file
 
 ```javascript
-import "monday-ui-react-core/tokens";
+import "core/tokens";
 ```
 
 _If your project is importing files differently - read more [here](DEPRECATED_IMPORTS.md)._
@@ -94,5 +94,5 @@ Perform the following steps to **release** a **new version**:
 
 - Bump the version in `package.json`
 - Merge into `origin/master`
-- [Release](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository) the new version in the [monday-ui-react-core
-  ](https://github.com/mondaycom/monday-ui-react-core)
+- [Release](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository) the new version in the [core
+  ](https://github.com/maxui-org/core)

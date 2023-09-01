@@ -20,7 +20,7 @@ jobs:
           npm ci
           npm run build-storybook -- -o static_storybook
           cd static_storybook
-          echo "style.monday.com" > ./CNAME
+          echo "style.maxui.org" > ./CNAME
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
       - name: Push to Storybook's branch
