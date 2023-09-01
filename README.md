@@ -2,18 +2,19 @@
 
 ![image](https://user-images.githubusercontent.com/60314759/147566893-63c5209a-8b83-4f32-af61-8b4c350ec770.png)
 
-[monday.com](https://www.monday.com) React components library - [Storybook](https://style.monday.com)
+[maxui.org](https://www.maxui.org) React components library - [Storybook](https://style.maxui.org)
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png" alt="Samsung" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Samsung | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
 | --------- | --------- | --------- | --------- | --------- | --------- |
 | last 4 versions| last 4 versions| 14+| last 2 versions| last 2 versions| last 2 versions |
-
+##
+[![Chromatic](https://github.com/maxui-org/core/actions/workflows/chromatic.yml/badge.svg)](https://github.com/maxui-org/core/actions/workflows/chromatic.yml)
 ## Installation
 
 Install the component library
 
 ```
-$ npm install monday-ui-react-core
+$ npm install @maxui/core
 ```
 
 ## Usage
@@ -21,7 +22,7 @@ $ npm install monday-ui-react-core
 Components are imported from the library's root entry:
 
 ```javascript
-import { Button } from "monday-ui-react-core";
+import { Button } from "@maxui/core";
 ```
 
 In order to load all the relevant CSS tokens, you should import the `tokens` file at the root of your application file
